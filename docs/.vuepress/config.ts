@@ -11,7 +11,7 @@ import Inspect from 'vite-plugin-inspect'
 
 export default defineUserConfig({
 	lang: 'zh-CN',
-	title: 'Hero',
+	title: 'Shared',
 	head: [
 		['link', { rel: 'icon', href: '/images/logo.svg' }]
 	],

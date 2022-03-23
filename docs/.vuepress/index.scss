@@ -1,12 +1,12 @@
 :root {
-    --c-brand: rgb(66, 184, 131); // 主色调
-    --c-brand-light: rgb(47, 202, 133); // 主色调(高亮)
+    --c-brand: #d77f66 !important; // 主色调
+    --c-brand-light: #b15a43 !important; // 主色调(高亮)
     --c-text-lightest: #3c3c3cb3;
 }
 
 // 进度条颜色
 #nprogress {
-    --nprogress-color: #187391;
+    --nprogress-color: #d77f66;
 }
 
 /*
@@ -117,10 +117,10 @@ html.dark ::-webkit-scrollbar-thumb {
 */
 .action-button {
     font-weight: 600;
+    border: 0 !important;
     font-size: 16px !important;
     padding: 8px 18px !important;
     border-radius: 6px !important;
-    border: 0 !important;
 }
 
 .action-button.secondary {
