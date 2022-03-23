@@ -4,9 +4,9 @@ heroText: Shared
 tagline: 开发过程中的总结分享
 actions:
   - text: Get Started 👉
-    link: /guide/
+    link: /nuxt3/
   - text: About
-    link: /guide/
+    link: /about/
     type: secondary
 features:
   - title: ⚡ 简单

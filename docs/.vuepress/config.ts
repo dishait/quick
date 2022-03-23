@@ -20,11 +20,11 @@ export default defineUserConfig({
 		logo: '/images/logo.svg',
 		navbar: [
 			{
-				text: '指南',
-				link: '/guide/'
+				text: 'Nuxt3',
+				link: '/nuxt3/'
 			},
 			{
-				text: '关于',
+				text: 'About',
 				link: '/about/'
 			},
 			{

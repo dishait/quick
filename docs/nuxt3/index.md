@@ -1,3 +1,3 @@
-# Guide
+# Nuxt3
 
 TODO...
