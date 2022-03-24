@@ -12,7 +12,10 @@ export default defineUserConfig({
 	title: 'MShared',
 	base: '/MShared/',
 	head: [
-		['link', { rel: 'icon', href: '/images/logo.svg' }]
+		[
+			'link',
+			{ rel: 'icon', href: '/MShared/images/logo.svg' }
+		]
 	],
 	markdown: {
 		code: {
