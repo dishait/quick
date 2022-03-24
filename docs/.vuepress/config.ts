@@ -1,14 +1,9 @@
 import { resolve } from 'path'
 import Unocss from 'unocss/vite'
+import Inspect from 'vite-plugin-inspect'
 import { defineUserConfig } from 'vuepress'
 import AutoImport from 'unplugin-auto-import/vite'
-import Components from 'unplugin-vue-components/vite'
 import { useGenerateRoutes } from './theme/shared/generate'
-// import {
-// 	NaiveUiResolver,
-// 	VueUseComponentsResolver
-// } from 'unplugin-vue-components/resolvers'
-import Inspect from 'vite-plugin-inspect'
 import transformerDirective from '@unocss/transformer-directives'
 
 const generateNuxt3Routes = useGenerateRoutes('nuxt3')
@@ -95,19 +90,6 @@ export default defineUserConfig({
 					mode: 'per-module',
 					// @ts-ignore
 					transformers: [transformerDirective()]
-				}),
-				Components({
-					dirs: '',
-					dts: resolve(
-						__dirname,
-						'./types/components.d.ts'
-					),
-					extensions: ['vue', 'md'],
-					include: [/\.md$/, /\.vue$/]
-					// resolvers: [
-					// 	NaiveUiResolver(),
-					// 	VueUseComponentsResolver()
-					// ]
 				}),
 				AutoImport({
 					dts: resolve(
