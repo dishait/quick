@@ -28,6 +28,10 @@ export default defineUserConfig({
 				{
 					text: '起步',
 					children: ['/nuxt3/start/install.md']
+				},
+				{
+					text: '特性',
+					children: ['/nuxt3/features/auto-imports.md']
 				}
 			],
 			'/about/': [
