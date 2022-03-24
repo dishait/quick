@@ -3,11 +3,14 @@ import Unocss from 'unocss/vite'
 import { defineUserConfig } from 'vuepress'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
+import { useGenerateRoutes } from './theme/shared/generate'
 import {
 	NaiveUiResolver,
 	VueUseComponentsResolver
 } from 'unplugin-vue-components/resolvers'
 import Inspect from 'vite-plugin-inspect'
+
+const generateNuxt3Routes = useGenerateRoutes('nuxt3')
 
 export default defineUserConfig({
 	lang: 'zh-CN',
@@ -27,11 +30,11 @@ export default defineUserConfig({
 			'/nuxt3/': [
 				{
 					text: '起步',
-					children: ['/nuxt3/start/install.md']
+					children: generateNuxt3Routes('start')
 				},
 				{
 					text: '特性',
-					children: ['/nuxt3/features/auto-imports.md']
+					children: generateNuxt3Routes('features')
 				}
 			],
 			'/about/': [

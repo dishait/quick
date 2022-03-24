@@ -17,6 +17,15 @@ const theme: ThemeObject = {
 		themeWatcher.once('change', restart)
 
 		watchers.push(themeWatcher)
+
+		const nuxt3Wathcer = watch('docs/nuxt3', {
+			ignoreInitial: true
+		})
+
+		nuxt3Wathcer.once('add', restart)
+		nuxt3Wathcer.once('unlink', restart)
+
+		watchers.push(nuxt3Wathcer)
 	}
 }
 
