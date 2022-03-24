@@ -18,10 +18,23 @@ export default defineUserConfig({
 	description: '基于 vuepress 的文档模板',
 	themeConfig: {
 		logo: '/images/logo.svg',
+		sidebar: {
+			'/nuxt3/': [
+				{
+					text: '起步',
+					children: ['/nuxt3/start/install.md']
+				}
+			],
+			'/about/': [
+				{
+					children: ['/about/index.md']
+				}
+			]
+		},
 		navbar: [
 			{
 				text: 'Nuxt3',
-				link: '/nuxt3/'
+				link: '/nuxt3/start/install'
 			},
 			{
 				text: 'About',
