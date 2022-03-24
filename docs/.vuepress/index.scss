@@ -1,7 +1,7 @@
 :root {
     --c-brand: #d77f66 !important; // 主色调
-    --c-brand-light: #b15a43 !important; // 主色调(高亮)
-    --c-text-lightest: #3c3c3cb3;
+    --c-text-lightest: #3c3c3cb3; // 文本 (高亮)
+    --c-brand-light: #b15a43 !important; // 主色调 (高亮)
 }
 
 // 进度条颜色
@@ -13,6 +13,7 @@
 * 回到顶部
 */
 .back-to-top {
+    @apply shadow shadow-gray-300;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,17 +23,14 @@
     mask: none !important;
     -webkit-mask: none !important;
     background-color: white !important;
-    --tw-shadow-color: 8, 145, 178;
-    --tw-shadow: 0 4px 6px -1px rgba(var(--tw-shadow-color), 0.1),
-        0 2px 4px -1px rgba(var(--tw-shadow-color), 0.06);
-    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, var(--tw-shadow);
 }
 
 /*
 * 回到顶部(暗黑模式)
 */
 .dark .back-to-top {
-    background-color: #8094a8 !important;
+    @apply shadow-sm shadow-orange-200;
+    background-color: rgba(170, 170, 170, 0.1) !important;
 }
 
 /*

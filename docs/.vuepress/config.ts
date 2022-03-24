@@ -9,6 +9,7 @@ import { useGenerateRoutes } from './theme/shared/generate'
 // 	VueUseComponentsResolver
 // } from 'unplugin-vue-components/resolvers'
 import Inspect from 'vite-plugin-inspect'
+import transformerDirective from '@unocss/transformer-directives'
 
 const generateNuxt3Routes = useGenerateRoutes('nuxt3')
 
@@ -90,7 +91,9 @@ export default defineUserConfig({
 			plugins: [
 				Inspect(),
 				Unocss({
-					mode: 'per-module'
+					mode: 'per-module',
+					// @ts-ignore
+					transformers: [transformerDirective()]
 				}),
 				Components({
 					dirs: '',
