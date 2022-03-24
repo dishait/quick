@@ -1,11 +1,11 @@
 {
-  "name": "name",
+  "name": "shared",
   "version": "1.0.0",
-  "description": "description",
+  "description": "开发过程中的总结分享",
   "author": {
-    "name": "name",
-    "email": "xxx@qq.com",
-    "url": "https://github.com/name"
+    "name": "markthree",
+    "email": "1801982702@qq.com",
+    "url": "https://github.com/markthree"
   },
   "license": "MIT",
   "private": false,
