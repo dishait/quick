@@ -15,6 +15,11 @@ export default defineUserConfig({
 	head: [
 		['link', { rel: 'icon', href: '/images/logo.svg' }]
 	],
+	markdown: {
+		code: {
+			lineNumbers: false
+		}
+	},
 	description: '基于 vuepress 的文档模板',
 	themeConfig: {
 		logo: '/images/logo.svg',
