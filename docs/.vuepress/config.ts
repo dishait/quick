@@ -16,6 +16,7 @@ const generateNuxt3Routes = useGenerateRoutes('nuxt3')
 export default defineUserConfig({
 	lang: 'zh-CN',
 	title: 'MShared',
+	base: '/MShared/',
 	head: [
 		['link', { rel: 'icon', href: '/images/logo.svg' }]
 	],
