@@ -29,11 +29,11 @@ export default defineUserConfig({
 			},
 			{
 				text: 'Gitee',
-				link: 'https://gitee.com/dishait/shared-docs'
+				link: 'https://gitee.com/dishait/shared'
 			},
 			{
 				text: 'GitHub',
-				link: 'https://github.com/dishait/shared-docs'
+				link: 'https://github.com/dishait/shared'
 			}
 		]
 	},
