@@ -1,12 +1,10 @@
-# GitAction 名称
+
 name: Deploy Docs to Github pages
 
-# 此CI/CD触发时的事件 push:在代码提交时自动触发
 on:
   push:
     branches:
-      - master
-
+      - main
 
 jobs:
   build-and-deploy:
