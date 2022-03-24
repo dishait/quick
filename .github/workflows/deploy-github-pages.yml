@@ -23,7 +23,7 @@ jobs:
         run: yarn install
 
       - name: Build
-        run: yarn run docs:build
+        run: yarn run build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.6
