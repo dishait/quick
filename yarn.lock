@@ -158,11 +158,6 @@
   resolved "https://registry.npmjs.org/@unocss/core/-/core-0.28.3.tgz#e2241a00b648a2f63971619f28d606881b860760"
   integrity sha512-iBrTy9feRdUID/A7xOFgh6QN60TJdwSa9LyqEAvwaQP/Al3sONElpYAlPyWPBqKEWFScLPp8G6uXLuaPbnKUrA==
 
-"@unocss/core@0.30.1":
-  version "0.30.1"
-  resolved "https://registry.npmjs.org/@unocss/core/-/core-0.30.1.tgz#ba62e649ccfadeb71bee266c713c8dd6ced84928"
-  integrity sha512-g8ykeBDKL/BOVL9XVKJPXxJiSweEKlL93zk98T/Vxqv/MR0jrNdwUZBX5uil4u1PUQ+xWdcu72IIOHOBUxsNvQ==
-
 "@unocss/inspector@0.28.3":
   version "0.28.3"
   resolved "https://registry.npmjs.org/@unocss/inspector/-/inspector-0.28.3.tgz#a6605c197c99ad4df68b3b9892d6c64cc68f9e94"
@@ -242,14 +237,6 @@
   integrity sha512-dzk4wMs+S8tGCoRXILRjqWpMN0FXQZ2t0mfNgSogGoMg3zzQT6/O89yFRW9L/GfL7YnLwwAdS8R5fltyL/+eKQ==
   dependencies:
     "@unocss/core" "0.28.3"
-    css-tree "^2.1.0"
-
-"@unocss/transformer-directives@^0.30.1":
-  version "0.30.1"
-  resolved "https://registry.npmjs.org/@unocss/transformer-directives/-/transformer-directives-0.30.1.tgz#96cf1d8c00f5b030fdf869ba7af5757150cf7b07"
-  integrity sha512-whHmTlxhcRIflcnop1LWcKVc8mYa8LanU2QmzGDgryA62uCy8q9mJN1jXMALx8yTy6XKlTv8KCW9nT/AHUEAEg==
-  dependencies:
-    "@unocss/core" "0.30.1"
     css-tree "^2.1.0"
 
 "@unocss/transformer-variant-group@0.28.3":

@@ -13,7 +13,6 @@
 * 回到顶部
 */
 .back-to-top {
-    @apply shadow shadow-gray-300;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,13 +22,20 @@
     mask: none !important;
     -webkit-mask: none !important;
     background-color: white !important;
+    --tw-shadow-color: 8, 145, 178;
+    --tw-shadow: 0 4px 6px -1px rgba(var(--tw-shadow-color), 0.1),
+        0 2px 4px -1px rgba(var(--tw-shadow-color), 0.06);
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, var(--tw-shadow);
 }
 
 /*
 * 回到顶部(暗黑模式)
 */
 .dark .back-to-top {
-    @apply shadow-sm shadow-orange-200;
+    --tw-shadow-color: 254, 215, 170;
+    --tw-shadow: 0 4px 6px -1px rgba(var(--tw-shadow-color), 0.1),
+        0 2px 4px -1px rgba(var(--tw-shadow-color), 0.06);
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, var(--tw-shadow);
     background-color: rgba(170, 170, 170, 0.1) !important;
 }
 

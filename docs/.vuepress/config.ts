@@ -4,7 +4,6 @@ import Inspect from 'vite-plugin-inspect'
 import { defineUserConfig } from 'vuepress'
 import AutoImport from 'unplugin-auto-import/vite'
 import { useGenerateRoutes } from './theme/shared/generate'
-import transformerDirective from '@unocss/transformer-directives'
 
 const generateNuxt3Routes = useGenerateRoutes('nuxt3')
 
@@ -87,9 +86,7 @@ export default defineUserConfig({
 			plugins: [
 				Inspect(),
 				Unocss({
-					mode: 'per-module',
-					// @ts-ignore
-					transformers: [transformerDirective()]
+					mode: 'per-module'
 				}),
 				AutoImport({
 					dts: resolve(
