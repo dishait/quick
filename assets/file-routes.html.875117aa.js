@@ -1,0 +1,1 @@
+const e={key:"v-84c9ea90",path:"/nuxt3/features/file-routes.html",title:"\u6587\u4EF6\u8DEF\u7531",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:164813171e4,contributors:[{name:"markthree",email:"1801982702@qq.com",commits:1}]},filePathRelative:"nuxt3/features/file-routes.md"};export{e as data};
