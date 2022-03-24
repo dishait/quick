@@ -4,17 +4,17 @@ import { defineUserConfig } from 'vuepress'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import { useGenerateRoutes } from './theme/shared/generate'
-import {
-	NaiveUiResolver,
-	VueUseComponentsResolver
-} from 'unplugin-vue-components/resolvers'
+// import {
+// 	NaiveUiResolver,
+// 	VueUseComponentsResolver
+// } from 'unplugin-vue-components/resolvers'
 import Inspect from 'vite-plugin-inspect'
 
 const generateNuxt3Routes = useGenerateRoutes('nuxt3')
 
 export default defineUserConfig({
 	lang: 'zh-CN',
-	title: 'Shared',
+	title: 'MShared',
 	head: [
 		['link', { rel: 'icon', href: '/images/logo.svg' }]
 	],
@@ -54,11 +54,11 @@ export default defineUserConfig({
 			},
 			{
 				text: 'Gitee',
-				link: 'https://gitee.com/dishait/shared'
+				link: 'https://gitee.com/dishait/MShared'
 			},
 			{
 				text: 'GitHub',
-				link: 'https://github.com/dishait/shared'
+				link: 'https://github.com/dishait/MShared'
 			}
 		]
 	},
@@ -99,11 +99,11 @@ export default defineUserConfig({
 						'./types/components.d.ts'
 					),
 					extensions: ['vue', 'md'],
-					include: [/\.md$/, /\.vue$/],
-					resolvers: [
-						NaiveUiResolver(),
-						VueUseComponentsResolver()
-					]
+					include: [/\.md$/, /\.vue$/]
+					// resolvers: [
+					// 	NaiveUiResolver(),
+					// 	VueUseComponentsResolver()
+					// ]
 				}),
 				AutoImport({
 					dts: resolve(

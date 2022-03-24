@@ -1,10 +1,10 @@
 ---
 home: true
-heroText: Shared
+heroText: MShared
 tagline: 开发过程中的总结分享
 actions:
   - text: Get Started 👉
-    link: /nuxt3/
+    link: /nuxt3/start/install
   - text: About
     link: /about/
     type: secondary
