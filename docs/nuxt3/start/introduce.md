@@ -1,1 +1,22 @@
 # 介绍
+
+
+## [Nuxt3](https://v3.nuxtjs.org/)
+
+开源的高性能混合型 [Vue](https://staging-cn.vuejs.org/) 框架。  
+
+<br />
+<br />
+
+## Featues
+
+- 开发更快
+- 打包更小
+- 支持 `vite`
+- 支持 `vue3`
+- 支持自动引入
+- 支持文件路由
+- 支持布局系统
+- 支持多种渲染模式
+- 支持 `typescript`
+- 支持 `composition-api`
