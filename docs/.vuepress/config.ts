@@ -35,7 +35,8 @@ export default defineUserConfig({
 					text: '特性',
 					children: [
 						'/nuxt3/features/auto-imports.md',
-						'/nuxt3/features/file-routes.md'
+						'/nuxt3/features/file-routes.md',
+						'/nuxt3/features/layout-system.md'
 					]
 				}
 			],
