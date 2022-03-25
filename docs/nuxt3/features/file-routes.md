@@ -119,3 +119,28 @@
     <NuxtLink to="https://www.baidu.com/"> to baidu </NuxtLink>
 </template>
 ```
+
+<br />
+<br />
+
+## 元信息
+
+我们可以通过 `definePageMeta` 设置当前路由的元信息
+
+```html
+<script setup lang="ts">
+// 定义元信息
+definePageMeta({
+    foo: 'bar'
+})
+
+// 获取当前路由
+const route = useRoute()
+
+// 获取元信息
+const { meta } = route
+console.log(
+    toRaw(meta) // 输出 { foo: 'bar' }
+)
+</script>
+```
