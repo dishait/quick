@@ -3,9 +3,6 @@ import Unocss from 'unocss/vite'
 import Inspect from 'vite-plugin-inspect'
 import { defineUserConfig } from 'vuepress'
 import AutoImport from 'unplugin-auto-import/vite'
-import { useGenerateRoutes } from './theme/shared/generate'
-
-const generateNuxt3Routes = useGenerateRoutes('nuxt3')
 
 export default defineUserConfig({
 	lang: 'zh-CN',
@@ -29,11 +26,17 @@ export default defineUserConfig({
 			'/nuxt3/': [
 				{
 					text: '起步',
-					children: generateNuxt3Routes('start')
+					children: [
+						'/nuxt3/start/introduce.md',
+						'/nuxt3/start/install.md'
+					]
 				},
 				{
 					text: '特性',
-					children: generateNuxt3Routes('features')
+					children: [
+						'/nuxt3/features/auto-imports.md',
+						'/nuxt3/features/file-routes.md'
+					]
 				}
 			],
 			'/about/': [
@@ -45,7 +48,7 @@ export default defineUserConfig({
 		navbar: [
 			{
 				text: 'Nuxt3',
-				link: '/nuxt3/start/install'
+				link: '/nuxt3/start/introduce'
 			},
 			{
 				text: 'About',

@@ -20,7 +20,6 @@
     "@vuepress/plugin-search": "^2.0.0-beta.35",
     "@vueuse/core": "^7.5.5",
     "chokidar": "^3.5.3",
-    "fast-glob": "^3.2.11",
     "ityped": "^1.0.3",
     "unocss": "^0.28.1",
     "unplugin-auto-import": "^0.5.11",
