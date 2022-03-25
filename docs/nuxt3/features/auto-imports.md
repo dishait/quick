@@ -42,6 +42,19 @@ console.log(useDark)
 </script>
 ```
 
+<br />
+
+### 内置
+
+`vue` 和 `nuxt3` 本身的 `api` 也支持按需自动引入
+
+```html
+<script setup lang="ts">
+// ref 将被按需自动引入
+const counter = ref(1)
+</script>
+```
+
 
 <br />
 <br />
