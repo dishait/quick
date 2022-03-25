@@ -2,7 +2,7 @@
 
 ## 基础
 
-1. 创建 `package.json`，并补充以下信息
+1. 创建 `package.json`，并补充以下信息 👇
 
 ```json
 {
@@ -118,10 +118,23 @@ npm run start
 
 如果你想要开一个 `ts` 项目
 
-请在根目录下创建 `tsconfig.json`
+请在根目录下创建 `tsconfig.json`，并补充 👇
 
 ```json
 {
   "extends": "./.nuxt/tsconfig.json"
 }
 ```
+
+为了更好的类型提示，还需要在根目录下创建 `nuxt.config.ts`，并补充 👇
+
+```ts
+import { defineNuxtConfig } from 'nuxt3'
+
+export default defineNuxtConfig({
+	typescript: {
+		shim: false
+	}
+})
+```
+
