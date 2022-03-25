@@ -138,3 +138,13 @@ export default defineNuxtConfig({
 })
 ```
 
+<br />
+<br />
+
+## 插件推荐
+
+安装以下插件可以让你在 `vscode` 中有更友好的开发体验
+
+- [Vue Language Features(Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+
+- [TypeScript Vue Plugin(Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin) 
