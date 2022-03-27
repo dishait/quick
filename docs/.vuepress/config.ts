@@ -38,6 +38,7 @@ export default defineUserConfig({
 						'/nuxt3/features/file-routes.md',
 						'/nuxt3/features/layout-system.md',
 						'/nuxt3/features/shared-state.md',
+						'/nuxt3/features/data-fetch.md',
 					]
 				}
 			],
