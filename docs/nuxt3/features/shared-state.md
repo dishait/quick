@@ -1,5 +1,7 @@
 # 状态共享
 
+## 基础
+
 1. 使用 `useState` 可以定义简单的共享状态
 
 例如在 `composables` 中定义 `useCounter`
@@ -7,7 +9,7 @@
 ```ts
 // composables/useCounter.ts
 // composables 下模块的同名导出将被自动按需引入
-export const useCounter = useState('counter', () => 100)
+export const useCounter = () => useState('counter', () => 100)
 ```
 
 `useState` 的第一参数为 `key`，第二参数为初始化的工厂函数
@@ -42,3 +44,11 @@ export const useCounter = useState('counter', () => 100)
 ```
 
 你会发现两个页面的状态是共享的 👍
+
+<br />
+<br />
+
+
+## 注意
+
+`useState` 只允许在生命周期中使用。
