@@ -36,7 +36,8 @@ export default defineUserConfig({
 					children: [
 						'/nuxt3/features/auto-imports.md',
 						'/nuxt3/features/file-routes.md',
-						'/nuxt3/features/layout-system.md'
+						'/nuxt3/features/layout-system.md',
+						'/nuxt3/features/shared-state.md',
 					]
 				}
 			],
