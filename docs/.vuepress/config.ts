@@ -19,7 +19,7 @@ export default defineUserConfig({
 			lineNumbers: false
 		}
 	},
-	description: '基于 vuepress 的文档模板',
+	description: '开发过程中的总结分享',
 	themeConfig: {
 		logo: '/images/logo.svg',
 		sidebar: {
