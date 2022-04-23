@@ -23,6 +23,8 @@ const modules = import.meta.globEager(
 console.log(modules) // 将以对象的方式输出到前端控制台
 ```
 
+![Glob 导入](/vite/globEager.gif)
+
 <br />
 <br />
 
@@ -124,6 +126,8 @@ export const useCounterStore = defineStore('counter', {
 </template>
 ```
 
+![自动注册](/vite/autoUse.gif)
+
 <br />
 <br />
 
@@ -178,6 +182,8 @@ import msg from 'msg'
 console.log(msg) // 将在前端控制台输出 100
 // ...
 ```
+
+![virtualModule](/vite/virtualModule.gif)
 
 <br />
 <br />
@@ -249,3 +255,5 @@ useModules(app)
 
 app.mount('#app')
 ```
+
+![实现](/vite/useModules.gif)
