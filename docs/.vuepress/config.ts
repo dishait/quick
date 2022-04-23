@@ -23,6 +23,12 @@ export default defineUserConfig({
 	themeConfig: {
 		logo: '/images/logo.svg',
 		sidebar: {
+			'/vite/': [
+				{
+					text: '有用的插件知识',
+					children: ['/vite/plugins/index.md']
+				}
+			],
 			'/nuxt3/': [
 				{
 					text: '起步',
@@ -38,7 +44,7 @@ export default defineUserConfig({
 						'/nuxt3/features/file-routes.md',
 						'/nuxt3/features/layout-system.md',
 						'/nuxt3/features/shared-state.md',
-						'/nuxt3/features/data-fetch.md',
+						'/nuxt3/features/data-fetch.md'
 					]
 				}
 			],
@@ -49,6 +55,10 @@ export default defineUserConfig({
 			]
 		},
 		navbar: [
+			{
+				text: 'Vite',
+				link: '/vite/plugins/index.md'
+			},
 			{
 				text: 'Nuxt3',
 				link: '/nuxt3/start/introduce'
