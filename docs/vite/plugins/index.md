@@ -123,4 +123,4 @@ pnpm dev
 <br />
 <br />
 
-![起步演示](/vite/vite-start.gif)
+![起步演示](/vite/start.gif)

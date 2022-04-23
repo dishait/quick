@@ -26,7 +26,10 @@ export default defineUserConfig({
 			'/vite/': [
 				{
 					text: '有用的插件知识',
-					children: ['/vite/plugins/index.md']
+					children: [
+						'/vite/plugins/index.md',
+						'/vite/plugins/use-modules.md'
+					]
 				}
 			],
 			'/nuxt3/': [
