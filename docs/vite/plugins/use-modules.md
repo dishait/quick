@@ -183,7 +183,7 @@ console.log(msg) // 将在前端控制台输出 100
 // ...
 ```
 
-![virtualModule](/vite/virtualModule.gif)
+![虚拟模块](/vite/virtualModule.gif)
 
 <br />
 <br />
