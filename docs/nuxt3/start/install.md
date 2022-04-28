@@ -6,14 +6,14 @@
 
 ```json
 {
-    "scripts": {
-        "dev": "nuxi dev",
-        "build": "nuxi build",
-        "start": "nuxi build && node .output/server/index.mjs"
-    },
-    "devDependencies": {
-        "nuxt3": "latest"
-    }
+	"scripts": {
+		"dev": "nuxi dev",
+		"build": "nuxi build",
+		"start": "nuxi build && node .output/server/index.mjs"
+	},
+	"devDependencies": {
+		"nuxt": "latest"
+	}
 }
 ```
 
@@ -22,7 +22,7 @@
 ```html
 <!-- app.vue -->
 <template>
-    <div>Hello, World!!</div>
+	<div>Hello, World!!</div>
 </template>
 ```
 
@@ -110,7 +110,6 @@ npm run start
 
 </CodeGroup>
 
-
 <br />
 <br />
 
@@ -122,14 +121,14 @@ npm run start
 
 ```json
 {
-  "extends": "./.nuxt/tsconfig.json"
+	"extends": "./.nuxt/tsconfig.json"
 }
 ```
 
 为了更好的类型提示，还需要在根目录下创建 `nuxt.config.ts`，并补充 👇
 
 ```ts
-import { defineNuxtConfig } from 'nuxt3'
+import { defineNuxtConfig } from 'nuxt'
 
 export default defineNuxtConfig({
 	typescript: {
@@ -147,4 +146,4 @@ export default defineNuxtConfig({
 
 - [Vue Language Features(Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
 
-- [TypeScript Vue Plugin(Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin) 
+- [TypeScript Vue Plugin(Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin)
