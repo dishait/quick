@@ -12,7 +12,7 @@
 		"start": "nuxi build && node .output/server/index.mjs"
 	},
 	"devDependencies": {
-		"nuxt": "latest"
+		"nuxt": "^3.0.0-rc.3"
 	}
 }
 ```
