@@ -1,32 +1,3 @@
 {
-	"compilerOptions": {
-		"strict": true,
-		"jsx": "preserve",
-		"target": "esnext",
-		"module": "esnext",
-		"sourceMap": true,
-		"skipLibCheck": true,
-		"isolatedModules": true,
-		"esModuleInterop": true,
-		"lib": ["esnext", "dom"],
-		"resolveJsonModule": true,
-		"moduleResolution": "node",
-		"useDefineForClassFields": true,
-		"baseUrl": ".",
-		"paths": {
-			"~/*": ["./*"]
-		}
-	},
-	"include": [
-		"docs",
-		"components",
-		"composables",
-		"docs/.vuepress/config.ts"
-	],
-	"exclude": [
-		"node_modules",
-		"docs/.vuepress/dist",
-		"docs/.vuepress/.temp",
-		"docs/.vuepress/.cache"
-	]
+	"extends": "./.nuxt/tsconfig.json"
 }

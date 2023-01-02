@@ -1,4 +1,4 @@
-# MShared
+# [Quick](https://dishait.github.io/quick/)
 
 开发过程中的总结分享
 
@@ -8,7 +8,7 @@
 
 ## 线上文档 🐳
 
-点击 👉 [MShared](https://dishait.github.io/MShared/)
+点击 👉 [Quick](https://dishait.github.io/quick/)
 
 <br />
 <br />

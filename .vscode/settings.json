@@ -1,0 +1,7 @@
+{
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.expand": false,
+	"explorer.fileNesting.patterns": {
+		"app.config.ts": "nuxt.config.ts,package.json,.gitignore,tokens.config.json,LICENSE,tokens.config.ts,tsconfig.json"
+	}
+}
