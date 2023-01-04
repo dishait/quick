@@ -4,7 +4,6 @@ export default defineAppConfig({
 		description:
 			'一个编程快速入门视频栏目，帮助你快速学会编程知识',
 		url: 'https://dishait.github.io/quick/',
-
 		socials: {
 			bilibili: {
 				icon: 'fa-brands:youtube',
@@ -17,8 +16,12 @@ export default defineAppConfig({
 			title: 'Quick',
 			showLinkIcon: true
 		},
+		aside: {
+			level: 1
+		},
 		github: {
 			edit: true,
+			root: 'content',
 			contributors: true
 		},
 		footer: {
