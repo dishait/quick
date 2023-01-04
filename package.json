@@ -18,7 +18,8 @@
     "build": "nuxi build",
     "preview": "nuxi preview",
     "analyze": "nuxi analyze",
-    "generate": "nuxi generate"
+    "generate": "nuxi generate",
+    "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
     "@nuxt-themes/docus": "^1.3.1",
