@@ -2,4 +2,5 @@ dist
 .nuxt
 .temp
 .cache
+.output
 node_modules

@@ -1,7 +1,7 @@
 {
   "name": "quick",
   "version": "2.0.0",
-  "description": "开发过程中的总结分享",
+  "description": "一个视频栏目，帮助你快速学会编程知识",
   "author": {
     "name": "markthree",
     "email": "1801982702@qq.com",
@@ -17,6 +17,7 @@
     "dev": "nuxi dev",
     "build": "nuxi build",
     "preview": "nuxi preview",
+    "analyze": "nuxi analyze",
     "generate": "nuxi generate"
   },
   "devDependencies": {
