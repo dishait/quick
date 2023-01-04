@@ -1,0 +1,1 @@
+import{a as o,o as t,b as n,N as r}from"./entry.5509b817.js";import"./entry.async.3095d3bb.js";const c={};function s(e,a){return t(),n("tbody",null,[r(e.$slots,"default")])}const f=o(c,[["render",s]]);export{f as default};
