@@ -15,9 +15,7 @@ function execa(command: string, inherit = true) {
 			stdout: 'inherit'
 		} as Options)
 	}
-	const subprocess = _execa(file, args, {
-		...options
-	})
+	const subprocess = _execa(file, args, options)
 
 	process.once('SIGINT', () => {
 		subprocess.kill('SIGINT')

@@ -12,6 +12,10 @@ export default defineNuxtConfig({
 		shim: false
 	},
 	nitro: {
-		preset: 'deno'
+		preset: 'deno',
+		prerender: {
+			crawlLinks: true,
+			routes: ['/', '/start', '/about']
+		}
 	}
 })
