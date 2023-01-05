@@ -1,0 +1,38 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set node version to 18
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
+          cache: "yarn"
+
+      - name: Install deps
+        run: yarn install
+
+      - name: Build
+        run: yarn run generate
+
+      - name: Deploy to Deno Deploy
+        uses: denoland/deployctl@v1
+        with:
+          project: qk3
+          entrypoint: https://deno.land/std@0.170.0/http/file_server.ts
+          root: .output/public

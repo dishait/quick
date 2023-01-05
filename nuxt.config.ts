@@ -10,5 +10,8 @@ export default defineNuxtConfig({
 	},
 	typescript: {
 		shim: false
+	},
+	nitro: {
+		preset: 'deno'
 	}
 })
