@@ -1,6 +1,6 @@
 # [Quick](https://dishait.github.io/quick/)
 
-开发过程中的总结分享
+一个视频栏目，帮助你快速学会编程知识
 
 
 <br />
@@ -8,7 +8,7 @@
 
 ## 线上文档 🐳
 
-点击 👉 [Quick](https://dishait.github.io/quick/)
+点击 👉 [Quick](https://qk3.deno.dev/)
 
 <br />
 <br />
