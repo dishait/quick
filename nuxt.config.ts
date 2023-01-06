@@ -22,7 +22,7 @@ export default defineNuxtConfig({
 		preset: 'deno',
 		prerender: {
 			crawlLinks: true,
-			routes: ['/', '/start', '/about']
+			routes: ['/', '/start', '/about', '/sitemap.xml']
 		}
 	}
 })
