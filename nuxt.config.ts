@@ -1,7 +1,11 @@
 export default defineNuxtConfig({
 	extends: '@nuxt-themes/docus',
 	app: {
-		pageTransition: { name: 'page', mode: 'out-in' }
+		head: {
+			htmlAttrs: {
+				lang: 'zh-CN'
+			}
+		}
 	},
 	experimental: {
 		asyncEntry: true // 异步入口
