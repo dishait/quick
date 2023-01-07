@@ -1,3 +1,4 @@
+// TODO fav 图标
 export default defineAppConfig({
 	docus: {
 		title: 'Quick',

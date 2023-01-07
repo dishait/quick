@@ -19,7 +19,12 @@ export default defineNuxtConfig({
 		shim: false
 	},
 	nitro: {
+		minify: true,
 		preset: 'deno',
+		compressPublicAssets: {
+			gzip: true,
+			brotli: true
+		},
 		prerender: {
 			crawlLinks: true,
 			routes: ['/', '/start', '/about', '/sitemap.xml']
