@@ -18,12 +18,16 @@
     "dev": "nuxi dev",
     "prepare": "nuxi prepare",
     "generate": "nuxi generate",
-    "preview": "serve -s .output/public"
+    "preview": "tsx scripts/preview.ts"
   },
   "devDependencies": {
     "@nuxt-themes/docus": "^1.4.4",
+    "execa": "^6.1.0",
+    "fast-glob": "^3.2.12",
+    "file-computed": "^0.3.2",
     "nuxt": "^3.0.0",
-    "serve": "^14.1.2"
+    "serve": "^14.1.2",
+    "tsx": "^3.12.1"
   },
   "engines": {
     "node": ">=18"
