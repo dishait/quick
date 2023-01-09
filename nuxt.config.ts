@@ -8,7 +8,8 @@ export default defineNuxtConfig({
 		}
 	},
 	experimental: {
-		asyncEntry: true // 异步入口
+		asyncEntry: true, // 异步入口
+		reactivityTransform: true // 开启响应性语法糖
 	},
 	vite: {
 		define: {

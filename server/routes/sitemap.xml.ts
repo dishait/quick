@@ -1,3 +1,4 @@
+// 提高谷歌的 seo
 import { serverQueryContent } from '#content/server'
 import { SitemapStream, streamToPromise } from 'sitemap'
 
