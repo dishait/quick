@@ -30,6 +30,14 @@
     "sitemap": "^7.1.1",
     "tsx": "^3.12.2"
   },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "vue",
+        "postcss"
+      ]
+    }
+  },
   "engines": {
     "node": ">=18"
   }

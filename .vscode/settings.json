@@ -2,7 +2,7 @@
 	"explorer.fileNesting.enabled": true,
 	"explorer.fileNesting.expand": false,
 	"explorer.fileNesting.patterns": {
-		"app.config.ts": "nuxt.config.ts,package.json,.gitignore,tokens.config.json,LICENSE,tokens.config.ts,tsconfig.json"
+		"app.config.ts": "nuxt.config.ts,package.json,.gitignore,tokens.config.json,LICENSE,tokens.config.ts,tsconfig.json,.npmrc"
 	},
 	"yaml.schemas": {
 		"https://json.schemastore.org/github-workflow.json": "file:///d%3A/Code/Work/quick/.github/workflows/deploy.yml"
