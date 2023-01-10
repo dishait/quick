@@ -24,15 +24,13 @@
     "@nuxt-themes/docus": "^1.4.4",
     "execa": "^6.1.0",
     "fast-glob": "^3.2.12",
-    "file-computed": "^0.3.2",
+    "file-computed": "^0.3.3",
     "nuxt": "^3.0.0",
     "serve": "^14.1.2",
-    "tsx": "^3.12.1"
+    "sitemap": "^7.1.1",
+    "tsx": "^3.12.2"
   },
   "engines": {
     "node": ">=18"
-  },
-  "dependencies": {
-    "sitemap": "^7.1.1"
   }
 }
