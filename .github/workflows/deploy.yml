@@ -22,13 +22,13 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 18
-          cache: "yarn"
+          cache: "pnpm"
 
       - name: Install deps
-        run: yarn install
+        run: pnpm install
 
       - name: Build
-        run: yarn run generate
+        run: pnpm run generate
 
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
