@@ -22,12 +22,16 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 18
-          cache: "pnpm"
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
 
       - name: Install deps
         run: pnpm install
 
-      - name: Build
+      - name: Generate
         run: pnpm run generate
 
       - name: Deploy to Deno Deploy
