@@ -21,7 +21,7 @@
     "preview": "tsx scripts/preview.ts"
   },
   "devDependencies": {
-    "@nuxt-themes/docus": "^1.4.4",
+    "@nuxt-themes/docus": "^1.4.5",
     "execa": "^6.1.0",
     "fast-glob": "^3.2.12",
     "file-computed": "^0.3.3",
