@@ -12,7 +12,7 @@ function execaCommand(command: string) {
 }
 
 function generate() {
-	return execaCommand('yarn generate')
+	return execaCommand('pnpm generate')
 }
 
 async function ensureGenerate() {
