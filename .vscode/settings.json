@@ -6,5 +6,8 @@
 	},
 	"yaml.schemas": {
 		"https://json.schemastore.org/github-workflow.json": "file:///d%3A/Code/Work/quick/.github/workflows/deploy.yml"
+	},
+	"editor.quickSuggestions": {
+		"strings": "on"
 	}
 }
