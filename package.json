@@ -18,13 +18,14 @@
     "dev": "nuxi dev",
     "prepare": "nuxi prepare",
     "generate": "nuxi generate",
+    "preview-lite": "nuxi preview",
     "preview": "tsx scripts/preview.ts"
   },
   "devDependencies": {
-    "@nuxt-themes/docus": "^1.4.5",
+    "@nuxt-themes/docus": "^1.4.7",
     "execa": "^6.1.0",
     "fast-glob": "^3.2.12",
-    "file-computed": "^0.3.3",
+    "file-computed": "^0.3.10",
     "nuxt": "^3.0.0",
     "serve": "^14.1.2",
     "sitemap": "^7.1.1",
