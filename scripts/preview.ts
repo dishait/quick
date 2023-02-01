@@ -1,7 +1,7 @@
 import fg from 'fast-glob'
 import { existsSync } from 'fs'
 import { execaCommand as _execaCommand } from 'execa'
-import { createFsComputed } from 'file-computed'
+import { createFsComputedWithStream } from 'file-computed'
 
 function execaCommand(command: string) {
 	return _execaCommand(command, {
@@ -20,7 +20,7 @@ async function ensureGenerate() {
 		return generate()
 	}
 
-	const fsComputed = createFsComputed()
+	const fsComputed = createFsComputedWithStream()
 
 	const paths = await fg(['*.ts', '*.json', '*.lock'])
 

@@ -15,15 +15,8 @@ export default defineNuxtConfig({
 		define: {
 			__VUE_OPTIONS_API__: false // 明确不使用 options api
 		}
-		// optimizeDeps: {
-		// 	include: ['pinceau']
-		// },
-		// build: {
-		// 	commonjsOptions: {
-		// 		include: ['pinceau']
-		// 	}
-		// }
 	},
+	sourcemap: false,
 	typescript: {
 		shim: false
 	},

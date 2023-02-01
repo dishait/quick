@@ -5,14 +5,16 @@ export default defineAppConfig({
 			'一个编程快速入门视频栏目，帮助你快速学会编程知识',
 		url: 'https://dishait.github.io/quick/',
 		socials: {
+			github: 'dishait/quick',
 			bilibili: {
 				icon: 'fa-brands:youtube',
 				label: 'bilibili',
 				href: 'https://space.bilibili.com/590784571'
-			},
-			github: 'dishait/quick'
+			}
 		},
 		header: {
+			// TODO custom logo
+			// logo: true,
 			title: 'Quick',
 			showLinkIcon: true
 		},
@@ -21,12 +23,16 @@ export default defineAppConfig({
 		},
 		github: {
 			edit: true,
-			root: 'content',
+			repo: 'quick',
+			branch: 'main',
+			dir: 'content',
+			owner: 'dishait',
 			contributors: true
 		},
 		footer: {
 			credits: {
 				text: 'dishait.cn',
+				icon: 'fa-brands:youtube',
 				href: 'http://dishaxy.dishait.cn/'
 			}
 		}
