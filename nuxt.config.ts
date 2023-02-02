@@ -1,11 +1,16 @@
 export default defineNuxtConfig({
 	extends: '@nuxt-themes/docus',
+	modules: ['@unocss/nuxt'],
 	app: {
 		head: {
 			htmlAttrs: {
 				lang: 'zh-CN'
 			}
 		}
+	},
+	unocss: {
+		uno: true,
+		attributify: true
 	},
 	experimental: {
 		asyncEntry: true, // 异步入口

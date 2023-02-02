@@ -13,8 +13,6 @@ export default defineAppConfig({
 			}
 		},
 		header: {
-			// TODO custom logo
-			// logo: true,
 			title: 'Quick',
 			showLinkIcon: true
 		},
