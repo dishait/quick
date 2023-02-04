@@ -1,9 +1,8 @@
-# [Quick](https://dishait.github.io/quick/)
+# [Quick](https://qk3.deno.dev/)
 
-一个视频栏目，帮助你快速学会编程知识
+一个编程快速入门的视频栏目，帮助你快速开始编程
 
 
-<br />
 <br />
 
 ## 线上文档 🐳
@@ -11,13 +10,11 @@
 点击 👉 [Quick](https://qk3.deno.dev/)
 
 <br />
-<br />
 
 ## 动机 🦖
 
 为了更好的分享
 
-<br />
 <br />
 
 ## 频道 🦕
@@ -26,9 +23,6 @@
 
 [哔哩哔哩](https://space.bilibili.com/590784571)
 
-
-<br />
-<br />
 <br />
 
 ## 组织 🦔
@@ -42,6 +36,14 @@
 
 
 <br />
+
+## 技术栈
+
+- [deno](https://github.com/denoland/deno)
+- [nuxt3](https://github.com/nuxt/nuxt)
+- [docus](https://github.com/nuxt-themes/docus)
+- [unocss](https://github.com/unocss/unocss)
+
 <br />
 
 ## License
