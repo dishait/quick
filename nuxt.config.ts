@@ -1,3 +1,14 @@
+import {
+	genPrerenderRoutesSync,
+	createDefaultGenPrerenderRoutesSyncOptions
+} from 'nuxt3-intelligence'
+
+const defaultOptions =
+	createDefaultGenPrerenderRoutesSyncOptions()
+const routes = genPrerenderRoutesSync(defaultOptions)
+
+routes.push('/sitemap.xml')
+
 export default defineNuxtConfig({
 	extends: '@nuxt-themes/docus',
 	modules: ['@unocss/nuxt'],
@@ -33,8 +44,8 @@ export default defineNuxtConfig({
 			brotli: true
 		},
 		prerender: {
-			crawlLinks: true,
-			routes: ['/', '/start', '/about', '/sitemap.xml']
+			routes,
+			crawlLinks: true
 		}
 	}
 })
