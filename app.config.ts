@@ -14,7 +14,8 @@ export default defineAppConfig({
 		},
 		header: {
 			title: 'Quick',
-			showLinkIcon: true
+			showLinkIcon: true,
+			exclude: ['/config']
 		},
 		aside: {
 			level: 1

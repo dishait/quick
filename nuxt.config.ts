@@ -7,7 +7,7 @@ const defaultOptions =
 	createDefaultGenPrerenderRoutesSyncOptions()
 const routes = genPrerenderRoutesSync(defaultOptions)
 
-routes.push('/sitemap.xml')
+routes.push('/sitemap.xml', '/config')
 
 export default defineNuxtConfig({
 	extends: '@nuxt-themes/docus',
