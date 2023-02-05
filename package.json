@@ -22,7 +22,7 @@
 		"release": "bumpp --commit --push --tag"
 	},
 	"devDependencies": {
-		"@nuxt-themes/docus": "^1.7.3",
+		"@nuxt-themes/docus": "^1.7.4",
 		"@unocss/nuxt": "^0.49.4",
 		"bumpp": "^8.2.1",
 		"execa": "^6.1.0",
