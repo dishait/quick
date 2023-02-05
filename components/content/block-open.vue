@@ -52,10 +52,10 @@ function filterIcons(icons?: string[]) {
 			:to="v.href"
 			target="__blank">
 			<div
-				class="cursor-pointer shadow transition-shadow p-5 pb-6 rounded-lg space-y-3 relative"
+				hover="shadow-md"
+				dark="shadow-gray-900"
 				dark:hover="shadow-gray-500/50"
-				dark="shadow-gray-900 shadow"
-				hover="shadow-md">
+				class="cursor-pointer shadow transition-shadow p-5 pb-6 rounded-lg space-y-3 relative">
 				<div class="absolute top-2 right-2 space-x-1">
 					<span
 						v-for="name in filterIcons(v.icons)"
