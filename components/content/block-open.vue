@@ -41,11 +41,9 @@ function filterIcons(icons?: string[]) {
 
 <template>
 	<div
-		class="grid grid-rows-12 grid-flow-col gap-10"
-		xs="grid-rows-8"
-		sm="grid-rows-6"
-		md="grid-rows-6"
-		lg="grid-rows-4">
+		class="grid gap-5 grid-cols-1"
+		lg="grid-cols-3"
+		md="grid-cols-2">
 		<NuxtLink
 			v-for="v of data?.open"
 			:key="v.href"

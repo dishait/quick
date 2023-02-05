@@ -33,8 +33,7 @@ sidebarDepth: 1
 </template>
 ```
 
-<br />
-<br />
+:space
 
 
 ## 全局
@@ -76,7 +75,7 @@ sidebarDepth: 1
 <template> about </template>
 ```
 
-<br />
+:space
 
 ### 注意事项
 

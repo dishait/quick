@@ -22,7 +22,7 @@ console.log(useFoo)
 </script>
 ```
 
-<br />
+:space
 
 ### 嵌套
 
@@ -42,7 +42,7 @@ console.log(useDark)
 </script>
 ```
 
-<br />
+:space
 
 ### 内置
 
@@ -56,8 +56,7 @@ const counter = ref(1)
 ```
 
 
-<br />
-<br />
+:space
 
 
 ## 组件
@@ -91,7 +90,7 @@ const counter = ref(1)
 </template>
 ```
 
-<br />
+:space
 
 ### 嵌套
 

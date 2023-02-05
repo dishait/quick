@@ -45,8 +45,7 @@ export const useCounter = () => useState('counter', () => 100)
 
 你会发现两个页面的状态是共享的 👍
 
-<br />
-<br />
+:space
 
 
 ## 注意

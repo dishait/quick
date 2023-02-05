@@ -52,7 +52,7 @@ const { data, error } = await useFetch('http://...') // 你的请求地址
 
 `useFetch` 会在内部自动使用 `$fetch` 作为请求方法，所以没有 `useAsyncData` 灵活。
 
-<br />
+:space
 
 ### lazy
 
@@ -95,8 +95,7 @@ const { data } = await useLazyFetch('http://localhost:4000')
 </template>
 ```
 
-<br />
-<br />
+:space
 
 
 ## 注意

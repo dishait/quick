@@ -37,8 +37,7 @@
 ```
 
 
-<br />
-<br />
+:space
 
 ## 嵌套
 
@@ -62,8 +61,7 @@
 </template>
 ```
 
-<br />
-<br />
+:space
 
 ## 动态
 
@@ -95,8 +93,7 @@
 </template>
 ```
 
-<br />
-<br />
+:space
 
 ## 导航
 
@@ -120,8 +117,7 @@
 </template>
 ```
 
-<br />
-<br />
+:space
 
 ## 元信息
 
