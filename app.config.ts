@@ -18,7 +18,8 @@ export default defineAppConfig({
 			exclude: ['/config']
 		},
 		aside: {
-			level: 1
+			level: 1,
+			exclude: ['/config']
 		},
 		github: {
 			edit: true,
