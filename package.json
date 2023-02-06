@@ -22,7 +22,7 @@
 		"release": "bumpp --commit --push --tag"
 	},
 	"devDependencies": {
-		"@nuxt-themes/docus": "^1.7.4",
+		"@nuxt-themes/docus": "^1.8.1",
 		"@unocss/nuxt": "^0.49.4",
 		"bumpp": "^8.2.1",
 		"execa": "^6.1.0",
@@ -31,7 +31,7 @@
 		"nuxt3-intelligence": "^0.1.1",
 		"serve": "^14.2.0",
 		"sitemap": "^7.1.1",
-		"tsx": "^3.12.2"
+		"tsx": "^3.12.3"
 	},
 	"pnpm": {
 		"peerDependencyRules": {
