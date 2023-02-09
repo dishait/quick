@@ -1,6 +1,6 @@
 import {
-  createDefaultGenPrerenderRoutesSyncOptions,
   genPrerenderRoutesSync,
+  createDefaultGenPrerenderRoutesSyncOptions,
 } from "nuxt3-intelligence";
 
 const defaultOptions = createDefaultGenPrerenderRoutesSyncOptions();
@@ -10,7 +10,7 @@ routes.push("/sitemap.xml", "/config");
 
 export default defineNuxtConfig({
   extends: "@nuxt-themes/docus",
-  modules: ["@unocss/nuxt"],
+  modules: ["@unocss/nuxt", "@nuxt/devtools"],
   app: {
     head: {
       htmlAttrs: {

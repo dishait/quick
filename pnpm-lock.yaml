@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@nuxt-themes/docus': ^1.8.1
+  '@nuxt/devtools': ^0.1.0
   '@unocss/nuxt': ^0.49.4
   bumpp: ^8.2.1
   execa: ^6.1.0
@@ -14,6 +15,7 @@ specifiers:
 
 devDependencies:
   '@nuxt-themes/docus': 1.8.1_nuxt@3.2.0
+  '@nuxt/devtools': 0.1.0_nuxt@3.2.0
   '@unocss/nuxt': 0.49.4
   bumpp: 8.2.1
   execa: 6.1.0
@@ -271,6 +273,15 @@ packages:
     hasBin: true
     dependencies:
       '@babel/types': 7.20.7
+    dev: true
+
+  /@babel/plugin-syntax-import-meta/7.10.4_@babel+core@7.20.12:
+    resolution: {integrity: sha512-Yqfm+XDx0+Prh3VSeEQCPU81yC+JWZ2pDPFSS4ZdpfZhp4MkFMaDC1UqseovEKwSUpnIL7+vK+Clp7bfh0iD7g==}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    dependencies:
+      '@babel/core': 7.20.12
+      '@babel/helper-plugin-utils': 7.20.2
     dev: true
 
   /@babel/plugin-syntax-jsx/7.18.6_@babel+core@7.20.12:
@@ -1065,6 +1076,33 @@ packages:
 
   /@nuxt/devalue/2.0.0:
     resolution: {integrity: sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==}
+    dev: true
+
+  /@nuxt/devtools/0.1.0_nuxt@3.2.0:
+    resolution: {integrity: sha512-N8C+TDZAiMZi68HtQgUnKECsmRGV1t2xVSvLE+MdlY5t4OvzRTkhes6ONDP7lqDKZqUj7TcIgWShBvJa+InurA==}
+    hasBin: true
+    peerDependencies:
+      nuxt: ^3.1.1
+    dependencies:
+      '@antfu/install-pkg': 0.1.1
+      '@nuxt/kit': 3.2.0
+      birpc: 0.2.3
+      consola: 2.15.3
+      execa: 6.1.0
+      h3: 1.4.0
+      hookable: 5.4.2
+      launch-editor: 2.6.0
+      nuxt: 3.2.0
+      pathe: 1.1.0
+      pkg-types: 1.0.1
+      rc9: 2.0.1
+      unimport: 2.2.4
+      vite-plugin-inspect: 0.7.15
+      vite-plugin-vue-inspector: 3.3.2
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+      - vite
     dev: true
 
   /@nuxt/kit/3.1.1:
@@ -2345,6 +2383,10 @@ packages:
       file-uri-to-path: 1.0.0
     dev: true
 
+  /birpc/0.2.3:
+    resolution: {integrity: sha512-mG7m06C2JkfuHSaLRHhtHtMEvyT1P1nUyyuk5W/7LMT2p7YYX/tfzJzD2ynZZHem3JTi6yJve0nHPdrs/gpXYg==}
+    dev: true
+
   /bl/4.1.0:
     resolution: {integrity: sha512-1W07cM9gS6DcLperZfFSj+bWLtaPGSOHWhPiGzXmvVJbRLdG82sH/Kn8EtW1VqWVA54AKf2h5k5BbnIbwF3h6w==}
     dependencies:
@@ -3544,6 +3586,13 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
+  /esno/0.16.3:
+    resolution: {integrity: sha512-6slSBEV1lMKcX13DBifvnDFpNno5WXhw4j/ff7RI0y51BZiDqEe5dNhhjhIQ3iCOQuzsm2MbVzmwqbN78BBhPg==}
+    hasBin: true
+    dependencies:
+      tsx: 3.12.3
+    dev: true
+
   /esprima/4.0.1:
     resolution: {integrity: sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==}
     engines: {node: '>=4'}
@@ -4507,6 +4556,13 @@ packages:
 
   /kolorist/1.7.0:
     resolution: {integrity: sha512-ymToLHqL02udwVdbkowNpzjFd6UzozMtshPQKVi5k1EjKRqKqBrOnE9QbLEb0/pV76SAiIT13hdL8R6suc+f3g==}
+    dev: true
+
+  /launch-editor/2.6.0:
+    resolution: {integrity: sha512-JpDCcQnyAAzZZaZ7vEiSqL690w7dAEyLao+KC96zBplnYbJS7TYNjvM3M7y3dGz+v7aIsJk3hllWuc0kWAjyRQ==}
+    dependencies:
+      picocolors: 1.0.0
+      shell-quote: 1.8.0
     dev: true
 
   /lazystream/1.0.1:
@@ -6868,6 +6924,10 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  /shell-quote/1.8.0:
+    resolution: {integrity: sha512-QHsz8GgQIGKlRi24yFc6a6lN69Idnx634w49ay6+jA5yFh7a1UY+4Rp6HPx/L/1zcEDPEij8cIsiqR6bQsE5VQ==}
+    dev: true
+
   /shiki-es/0.2.0:
     resolution: {integrity: sha512-RbRMD+IuJJseSZljDdne9ThrUYrwBwJR04FvN4VXpfsU3MNID5VJGHLAD5je/HGThCyEKNgH+nEkSFEWKD7C3Q==}
     dev: true
@@ -7740,6 +7800,42 @@ packages:
       vscode-languageserver: 7.0.0
       vscode-languageserver-textdocument: 1.0.8
       vscode-uri: 3.0.7
+    dev: true
+
+  /vite-plugin-inspect/0.7.15:
+    resolution: {integrity: sha512-oxeZCljacA/slhGFbDNlBqdhDU9fgdHL84i7Nz7DnaAIE7DhTiW2djanw3d/BKuZtduKUY82vRUQ4iaG917t2A==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      vite: ^3.1.0 || ^4.0.0
+    dependencies:
+      '@antfu/utils': 0.7.2
+      '@rollup/pluginutils': 5.0.2
+      debug: 4.3.4
+      fs-extra: 11.1.0
+      kolorist: 1.7.0
+      sirv: 2.0.2
+      ufo: 1.0.1
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: true
+
+  /vite-plugin-vue-inspector/3.3.2:
+    resolution: {integrity: sha512-8IlDI4Y2hQeBud+ZoQ3/bnvrgkECcbV5ImlawPOhdxg1Th//rCmXefpoeF3r/lwzquIdnGg+TKgugCMqSuWVHA==}
+    peerDependencies:
+      vite: ^3.0.0-0 || ^4.0.0-0
+    dependencies:
+      '@babel/core': 7.20.12
+      '@babel/plugin-syntax-import-meta': 7.10.4_@babel+core@7.20.12
+      '@babel/plugin-transform-typescript': 7.20.13_@babel+core@7.20.12
+      '@vue/babel-plugin-jsx': 1.1.1_@babel+core@7.20.12
+      '@vue/compiler-dom': 3.2.47
+      esno: 0.16.3
+      kolorist: 1.7.0
+      magic-string: 0.27.0
+      shell-quote: 1.8.0
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   /vite/4.1.1:

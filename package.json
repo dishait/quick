@@ -23,6 +23,7 @@
 	},
 	"devDependencies": {
 		"@nuxt-themes/docus": "^1.8.1",
+		"@nuxt/devtools": "^0.1.0",
 		"@unocss/nuxt": "^0.49.4",
 		"bumpp": "^8.2.1",
 		"execa": "^6.1.0",
