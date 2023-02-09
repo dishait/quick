@@ -27,7 +27,7 @@
 		"bumpp": "^8.2.1",
 		"execa": "^6.1.0",
 		"file-computed": "^0.6.2",
-		"nuxt": "^3.1.2",
+		"nuxt": "^3.2.0",
 		"nuxt3-intelligence": "^0.1.1",
 		"serve": "^14.2.0",
 		"sitemap": "^7.1.1",
