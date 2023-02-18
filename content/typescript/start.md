@@ -14,8 +14,8 @@
 
 ## 运行时支持
 
-| 运行时                                           | 支持情况    | 平台                                                                                                                         |
-| ------------------------------------------------ | ----------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| :icon{name="logos:bun" size="20"} Bun            | ✅ 原生支持 | :icon{name="logos:linux-tux" size="18"} :icon{name="logos:macosx" size="18"}                                                 |
-| :icon{name="logos:deno" size="20"} Deno          | ✅ 原生支持 | :icon{name="logos:microsoft-windows" size="18"} :icon{name="logos:linux-tux" size="18"} :icon{name="logos:macosx" size="18"} |
-| :icon{name="logos:nodejs-icon" size="20"} Nodejs | ❌ 需要编译 | :icon{name="logos:microsoft-windows" size="18"} :icon{name="logos:linux-tux" size="18"} :icon{name="logos:macosx" size="18"} |
+| 运行时                                           | 支持情况        | 平台                                                                                                                         |
+| ------------------------------------------------ | --------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| :icon{name="logos:bun" size="20"} Bun            | ✅ 原生支持      | :icon{name="logos:linux-tux" size="18"} :icon{name="logos:macosx" size="18"}                                                 |
+| :icon{name="logos:deno" size="20"} Deno          | ✅ 原生支持      | :icon{name="logos:microsoft-windows" size="18"} :icon{name="logos:linux-tux" size="18"} :icon{name="logos:macosx" size="18"} |
+| :icon{name="logos:nodejs-icon" size="20"} Nodejs | ❌ 需要编译为 js | :icon{name="logos:microsoft-windows" size="18"} :icon{name="logos:linux-tux" size="18"} :icon{name="logos:macosx" size="18"} |
