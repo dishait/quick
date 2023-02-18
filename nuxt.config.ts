@@ -1,10 +1,9 @@
 import {
-  createDefaultGenPrerenderRoutesSyncOptions,
+  createDefaultGenPrerenderRoutesSyncOptions as defaultOptions,
   genPrerenderRoutesSync,
 } from "nuxt3-intelligence";
 
-const defaultOptions = createDefaultGenPrerenderRoutesSyncOptions();
-const routes = genPrerenderRoutesSync(defaultOptions);
+const routes = genPrerenderRoutesSync(defaultOptions());
 
 routes.push("/sitemap.xml", "/config");
 
