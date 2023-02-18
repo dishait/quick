@@ -10,7 +10,11 @@ routes.push("/sitemap.xml", "/config");
 
 export default defineNuxtConfig({
   extends: "@nuxt-themes/docus",
-  modules: ["@unocss/nuxt", "@nuxt/devtools", "@nuxtjs/fontaine"],
+  modules: [
+    "@unocss/nuxt",
+    "@nuxt/devtools",
+    "@nuxtjs/fontaine",
+  ],
   app: {
     head: {
       htmlAttrs: {
@@ -24,14 +28,12 @@ export default defineNuxtConfig({
   },
   experimental: {
     asyncEntry: true, // 异步入口
-    reactivityTransform: true, // 开启响应性语法糖
   },
   vite: {
     define: {
       __VUE_OPTIONS_API__: false, // 明确不使用 options api
     },
   },
-  // sourcemap: false,
   typescript: {
     shim: false,
   },

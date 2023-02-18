@@ -7,7 +7,7 @@ defineProps<{
 
 <template>
 	<div class="mt-5 font-semibold text-md text-gray-400 flex justify-end space-x-6">
-		<NuxtLink v-if="doc" :to="doc" class="flex items-center space-x-1 cursor-pointer hover:text-cyan-600">
+		<NuxtLink v-if="doc" :to="doc" class="flex items-center space-x-1 cursor-pointer hover:text-cyan-600" prefetch>
 			<Icon name="teenyicons:documents-outline" size="16px"></Icon>
 			<span> 文档 </span>
 		</NuxtLink>
