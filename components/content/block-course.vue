@@ -20,7 +20,7 @@ const { data } = useAsyncData(`/config/course`, () => {
 		<NuxtLink v-for="v of data?.course" :key="v.href" :to="v.href" target="__blank">
 			<article hover="shadow-md" dark="shadow-gray-900" dark:hover="shadow-gray-500/50"
 				class="overflow-hidden rounded-lg cursor-pointer shadow transition-shadow">
-				<img :alt="v.title" :src="v.cover" class="h-40 w-full object-cover" />
+				<NuxtImg :alt="v.title" :src="v.cover" class="h-40 w-full" />
 
 				<div class="bg-white p-2 sm:p-6" dark="bg-dark!">
 					<h3 class="mt-0.5 text-lg text-gray-900" dark="text-white">

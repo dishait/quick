@@ -24,6 +24,7 @@
   "devDependencies": {
     "@nuxt-themes/docus": "^1.8.2",
     "@nuxt/devtools": "^0.1.4",
+    "@nuxt/image-edge": "1.0.0-27919678.2f5b64b",
     "@nuxtjs/fontaine": "^0.2.4",
     "@unocss/nuxt": "^0.49.7",
     "bumpp": "^8.2.1",
