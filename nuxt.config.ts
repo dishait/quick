@@ -34,16 +34,13 @@ export default defineNuxtConfig({
       __VUE_OPTIONS_API__: false, // 明确不使用 options api
     },
   },
+  sourcemap: false,
   typescript: {
     shim: false,
   },
   nitro: {
     minify: true,
     preset: "deno",
-    compressPublicAssets: {
-      gzip: true,
-      brotli: true,
-    },
     prerender: {
       routes,
       crawlLinks: true,

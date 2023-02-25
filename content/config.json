@@ -25,7 +25,7 @@
       "desc": "基于uni-app实战开发在线教育类app和小程序，课程包括：图文，音频，视频，电子书、会员、直播、问答、考试、拼团秒杀、优惠券。一次开发，同时搞定Android、iOS、微信小程序、H5端。"
     },
     {
-      "title": "VueCli实战在线教育后台系统",
+      "title": "VueCli实战在线教育后台",
       "cover": "/course/5.png",
       "href": "https://study.163.com/course/introduction.htm?courseId=1210894808&_trace_c_p_k2_=0730fac5644b447dab0d7d7411e87497",
       "desc": "基于vue-element-admin实战开发在线教育后台系统，课程包括：图文，音频，视频，电子书、会员、直播、问答、题库、拼团秒杀、优惠券、可视化拖拽管理多端（PC端 + 移动端）。课程涉及vue + vuex + vue-router + vue-cli + axios + element-ui + Mock.js等内容"
@@ -43,7 +43,7 @@
       "desc": "uni-app + egg.js 实战仿微信app和小程序全栈开发，开启纯nvue原生渲染，大大提高性能。一次开发，同时搞定Android、iOS和小程序端等"
     },
     {
-      "title": "VueCli实战商城后台管理系统",
+      "title": "VueCli实战商城后台管理",
       "cover": "/course/8.png",
       "href": "https://study.163.com/course/introduction.htm?courseId=1209431911&_trace_c_p_k2_=c2f07ff267f14dd6ae51ef12d86cdf6e",
       "desc": "基于Vuecli + elementUI实战开发商城后台管理系统完整视频教程，其中包括vuex模块化管理、Vue-router二次封装、使用element-ui库、支付模块、多权限管理、商品多规格实现、对象存储、以及部署服务器上线等知识等。"
