@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     "@nuxt/devtools",
     "@nuxtjs/fontaine",
     "@nuxt/image-edge",
+    "./modules/beastcss",
   ],
   app: {
     head: {
