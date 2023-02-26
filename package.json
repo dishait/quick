@@ -22,6 +22,7 @@
     "release": "bumpp --commit --push --tag"
   },
   "devDependencies": {
+    "@arco-design/web-vue": "^2.43.2",
     "@nuxt-themes/docus": "^1.8.3",
     "@nuxt/devtools": "^0.2.3",
     "@nuxt/image-edge": "1.0.0-27954023.4cee565",
@@ -35,7 +36,8 @@
     "nuxt3-intelligence": "^0.1.1",
     "serve": "^14.2.0",
     "sitemap": "^7.1.1",
-    "tsx": "^3.12.3"
+    "tsx": "^3.12.3",
+    "ufo": "^1.1.0"
   },
   "pnpm": {
     "peerDependencyRules": {
