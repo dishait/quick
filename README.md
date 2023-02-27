@@ -2,7 +2,6 @@
 
 一个编程快速入门的视频栏目，帮助你快速开始编程
 
-
 <br />
 
 ## 线上文档 🐳
@@ -28,12 +27,63 @@
 ## 组织 🦔
 
 欢迎关注 [**帝莎编程**](http://dishaxy.dishait.cn/)
+
 - [官网](http://dishaxy.dishait.cn/)
 - [Gitee](https://gitee.com/dishait)
 - [Github](https://github.com/dishait)
 - [网易云课堂](https://study.163.com/provider/480000001892585/index.htm?share=2&shareId=480000001892585)
 
+<br />
 
+## 运行
+
+### 本地
+
+#### 安装
+
+```shell
+pnpm install
+```
+
+#### 开发
+
+```shell
+pnpm dev
+```
+
+#### 生成
+
+```shell
+pnpm generate
+```
+
+#### 纯预览
+
+```shell
+pnpm preview-lite
+```
+
+#### 预览
+
+```shell
+pnpm preview
+```
+
+### Docker
+
+#### 生成镜像
+
+```shell
+docker build -t quick .
+```
+
+#### 运行镜像
+
+```shell
+docker run -p 3000:3000 -d --name quick-app quick
+```
+
+访问 `localhost:3000` 即可
 
 <br />
 

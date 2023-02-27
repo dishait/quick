@@ -1,0 +1,8 @@
+dist
+.nuxt
+.output
+.vscode
+.github
+LICENSE
+.gitignore
+node_modules
