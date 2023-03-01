@@ -10,6 +10,7 @@ routes.push("/sitemap.xml", "/config");
 export default defineNuxtConfig({
   extends: "@nuxt-themes/docus",
   modules: [
+    "nuxt-size",
     "@unocss/nuxt",
     "@nuxt/devtools",
     "@nuxtjs/fontaine",
