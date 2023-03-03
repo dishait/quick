@@ -30,6 +30,7 @@ export default defineNuxtConfig({
   },
   experimental: {
     asyncEntry: true, // 异步入口
+    payloadExtraction: false, // 禁止 payload 提取
   },
   vite: {
     define: {
