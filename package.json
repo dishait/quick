@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@arco-design/web-vue": "^2.43.2",
-    "@nuxt-themes/docus": "^1.9.1",
+    "@nuxt-themes/docus": "^1.9.6",
     "@nuxt/devtools": "^0.2.5",
     "@nuxt/image-edge": "1.0.0-27968280.9739e4d",
     "@nuxtjs/fontaine": "^0.2.4",
