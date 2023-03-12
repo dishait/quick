@@ -14,7 +14,7 @@ specifiers:
   fast-glob: ^3.2.12
   file-computed: ^0.9.1
   nuxt: ^3.2.3
-  nuxt-size: ^0.1.1
+  nuxt-size: ^0.1.2
   nuxt3-intelligence: ^0.1.1
   pinceau: ^0.18.8
   serve: ^14.2.0
@@ -39,7 +39,7 @@ devDependencies:
   execa: 7.1.0
   file-computed: 0.9.1
   nuxt: 3.2.3
-  nuxt-size: 0.1.1
+  nuxt-size: 0.1.2
   nuxt3-intelligence: 0.1.1
   serve: 14.2.0
   sitemap: 7.1.1
@@ -6759,12 +6759,13 @@ packages:
       - vue
     dev: true
 
-  /nuxt-size/0.1.1:
-    resolution: {integrity: sha512-DRnWv2Ui9/gU7LhlsvFYWWE9fdCuNO3/rtU7wk3O92Wa0U+xR3RxROpJ18Ult4hWaoAbWWW+NsPZcxlq/nR4kA==}
+  /nuxt-size/0.1.2:
+    resolution: {integrity: sha512-bhNFFroBEf8yR7je5BC0jCL9/Ovio9wJ07joIqt8No8VrCxt78hkKtsOKHFz1rIhsUnN2642o1aHTqYx1ziASw==}
     dependencies:
       '@nuxt/kit': 3.2.3
       go-get-folder-size: 0.2.11
       kolorist: 1.7.0
+      std-env: 3.3.2
     transitivePeerDependencies:
       - rollup
       - supports-color
