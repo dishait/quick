@@ -26,7 +26,7 @@ async function ensureGenerate() {
 
 	// 文件型计算属性，当且仅当配置文件变更时才重新生成
 	return fsComputed(paths, async function () {
-		return await generate()
+		return generate()
 	})
 }
 
