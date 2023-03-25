@@ -33,7 +33,6 @@ export default defineNuxtConfig({
 		payloadExtraction: false // 禁止 payload 提取
 	},
 	vite: {
-		// plugins: [Skip()],
 		define: {
 			__VUE_OPTIONS_API__: false // 明确不使用 options api
 		}
@@ -44,7 +43,6 @@ export default defineNuxtConfig({
 	},
 	nitro: {
 		minify: true,
-		preset: 'deno',
 		prerender: {
 			routes,
 			crawlLinks: true
