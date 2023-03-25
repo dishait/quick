@@ -6,14 +6,22 @@
 
 ## 线上文档 🐳
  
-- [deno deploy](https://qk3.deno.dev/)
-- [netlify](https://qk-3.netlify.app/)
+- [https://qk3.deno.dev/](https://qk3.deno.dev/)
+- [https://qk-3.netlify.app/](https://qk-3.netlify.app/)
 
 <br />
 
 ## 动机 🦖
 
 为了更好的分享
+
+<br />
+
+## 讨论群
+
+QQ 群: 770144218
+
+![QQ](/public/shared/qq-1.webp)
 
 <br />
 
