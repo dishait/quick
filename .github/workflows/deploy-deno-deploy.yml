@@ -38,5 +38,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: qk3
-          entrypoint: https://deno.land/std@0.178.0/http/file_server.ts
+          entrypoint: https://deno.land/std@0.181.0/http/file_server.ts
           root: .output/public
