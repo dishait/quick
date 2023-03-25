@@ -1,8 +1,7 @@
 <script setup lang="ts">
 import { withBase } from 'ufo'
 import { Image as AImage } from "@arco-design/web-vue";
-import "@arco-design/web-vue/es/image/style/index.css"
-import "@arco-design/web-vue/es/index.css"
+import "@arco-design/web-vue/es/image/style/index.js"
 
 const props = defineProps({
     src: {
