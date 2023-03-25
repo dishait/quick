@@ -5,8 +5,9 @@
 <br />
 
 ## 线上文档 🐳
-
-点击 👉 [Quick](https://qk3.deno.dev/)
+ 
+- [deno deploy](https://qk3.deno.dev/)
+- [netlify](https://qk-3.netlify.app/)
 
 <br />
 
