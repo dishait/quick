@@ -33,7 +33,7 @@ async function ensureGenerate() {
 async function preview() {
 	await ensureGenerate()
 	const subprocess = execaCommand(
-		'npx serve -s .output/public'
+		'npx nuxi preview'
 	)
 
 	process.once('SIGINT', () => {

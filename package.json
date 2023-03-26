@@ -39,8 +39,6 @@
     "nuxt": "^3.3.2",
     "nuxt-size": "^0.1.3",
     "nuxt3-intelligence": "^0.1.1",
-    "pinceau": "^0.18.8",
-    "serve": "^14.2.0",
     "sitemap": "^7.1.1",
     "tsx": "^3.12.6",
     "ufo": "^1.1.1"
