@@ -5,6 +5,8 @@ import {
 
 const routes = genPrerenderRoutesSync(defaultOptions())
 
+const hour = 60 * 60
+
 routes.push('/sitemap.xml', '/config')
 
 export default defineNuxtConfig({
@@ -41,6 +43,9 @@ export default defineNuxtConfig({
 	sourcemap: false,
 	typescript: {
 		shim: false
+	},
+	routeRules: {
+		'/**': { swr: 6 * hour, prerender: true}
 	},
 	nitro: {
 		minify: true,
