@@ -1,1 +1,0 @@
-import{j as o,o as t,b as n,P as r}from"./entry.dbbb1ff3.js";import"./entry.b047ce84.js";const c={};function s(e,_){return t(),n("tbody",null,[r(e.$slots,"default")])}const f=o(c,[["render",s]]);export{f as default};
