@@ -22,6 +22,9 @@ devDependencies:
   '@nuxtjs/fontaine':
     specifier: ^0.2.4
     version: 0.2.4(rollup@3.20.2)
+  '@nuxtjs/robots':
+    specifier: ^3.0.0
+    version: 3.0.0(rollup@3.20.2)
   '@types/node':
     specifier: ^18.15.11
     version: 18.15.11
@@ -1585,6 +1588,16 @@ packages:
       ufo: 1.1.1
     transitivePeerDependencies:
       - encoding
+      - rollup
+      - supports-color
+    dev: true
+
+  /@nuxtjs/robots@3.0.0(rollup@3.20.2):
+    resolution: {integrity: sha512-qsHGW1KXBvV5Kq7u3huPnFCUTbHS4Fk8Za2mNPgmUXcwLgp3exvhPtdZfIdjrCF/aZk3A8OZONNmGghs6CecBA==}
+    dependencies:
+      '@nuxt/kit': 3.3.3(rollup@3.20.2)
+      h3: 1.6.4
+    transitivePeerDependencies:
       - rollup
       - supports-color
     dev: true

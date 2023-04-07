@@ -15,12 +15,19 @@ export default defineNuxtConfig({
 		'nuxt-size',
 		'@unocss/nuxt',
 		'@nuxt/devtools',
+		'@nuxtjs/robots',
 		'@nuxtjs/fontaine',
 		'@nuxt/image-edge',
 		'./modules/beastcss'
 	],
 	app: {
 		head: {
+			meta: [
+				{ charset: 'utf-8' },
+				{ name: 'keywords', content: '编程快速入门视频' },
+				{ name: 'keywords', content: '帮助你快速开始编程的教程' },
+				{ name: 'description', content: `一个编程快速入门的视频栏目，帮助你快速开始编程` },
+			],
 			htmlAttrs: {
 				lang: 'zh-CN'
 			}

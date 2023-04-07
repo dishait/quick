@@ -29,6 +29,7 @@
     "@nuxt/image-edge": "1.0.0-28008586.381b906",
     "@nuxt/kit": "^3.3.3",
     "@nuxtjs/fontaine": "^0.2.4",
+    "@nuxtjs/robots": "^3.0.0",
     "@types/node": "^18.15.11",
     "@unocss/nuxt": "^0.50.6",
     "beastcss": "^2.1.3",
