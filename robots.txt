@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# Comment here
+Sitemap: https://undefined/sitemap.xml
