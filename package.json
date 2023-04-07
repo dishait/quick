@@ -23,7 +23,7 @@
     "release": "bumpp --commit --push --tag"
   },
   "devDependencies": {
-    "@arco-design/web-vue": "^2.44.7",
+    "@arco-design/web-vue": "^2.45.0",
     "@nuxt-themes/docus": "^1.10.1",
     "@nuxt/devtools": "^0.3.1",
     "@nuxt/image-edge": "1.0.0-28008586.381b906",

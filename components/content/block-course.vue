@@ -17,7 +17,7 @@ const { data } = useAsyncData(`/config/course`, () => {
 
 <template>
 	<div class="grid gap-5 grid-cols-1 !px-8" lg="grid-cols-4" md="grid-cols-3" sm="grid-cols-2 px-0">
-		<NuxtLink v-for="v of data?.course" :key="v.href" :to="v.href" target="__blank">
+		<NuxtLink v-for="v of data?.course" :key="v.href" :to="v.href">
 			<article hover="shadow-md" dark="shadow-gray-900" dark:hover="shadow-gray-500/50"
 				class="overflow-hidden rounded-lg cursor-pointer shadow transition-shadow">
 				<div>

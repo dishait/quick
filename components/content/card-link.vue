@@ -11,7 +11,7 @@ defineProps<{
 			<Icon name="teenyicons:documents-outline" size="16px"></Icon>
 			<span> 文档 </span>
 		</NuxtLink>
-		<NuxtLink v-if="video" :to="video" target="__blank"
+		<NuxtLink v-if="video" :to="video"
 			class="flex items-center space-x-1 cursor-pointer hover:text-cyan-600">
 			<Icon name="ic:outline-video-library" size="20px"></Icon>
 

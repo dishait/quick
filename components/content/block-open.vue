@@ -48,7 +48,7 @@ function filterIcons(icons?: string[]) {
 			v-for="v of data?.open"
 			:key="v.href"
 			:to="v.href"
-			target="__blank">
+			>
 			<div
 				hover="shadow-md"
 				dark="shadow-gray-900"
